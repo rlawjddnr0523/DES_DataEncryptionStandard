@@ -1,9 +1,9 @@
-package re2.Functions;
+package gen2.Functions;
 
-import static re2.Functions.F.f;
-import static re2.Functions.KeySchedule.generateSubKeys;
-import static re2.Functions.Permute.permute;
-import static re2.Functions.Tables.FP;
+import static gen2.Functions.F.f;
+import static gen2.Functions.KeySchedule.generateSubKeys;
+import static gen2.Functions.Permute.permute;
+import static gen2.Functions.Tables.FP;
 
 public class Decrypt {
     public static long decrypt(long ciphertext, long key) {

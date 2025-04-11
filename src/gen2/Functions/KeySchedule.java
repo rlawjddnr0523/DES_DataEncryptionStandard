@@ -1,7 +1,7 @@
-package re2.Functions;
+package gen2.Functions;
 
-import static re2.Functions.Permute.permute;
-import static re2.Functions.Tables.*;
+import static gen2.Functions.Permute.permute;
+import static gen2.Functions.Tables.*;
 
 public class KeySchedule {
     public static long[] generateSubKeys(long key) {

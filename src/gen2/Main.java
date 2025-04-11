@@ -1,7 +1,7 @@
-package re2;
+package gen2;
 
-import static re2.Functions.Decrypt.decrypt;
-import static re2.Functions.Encrypt.encrypt;
+import static gen2.Functions.Decrypt.decrypt;
+import static gen2.Functions.Encrypt.encrypt;
 
 public class Main {
     public static void main(String[] args) {

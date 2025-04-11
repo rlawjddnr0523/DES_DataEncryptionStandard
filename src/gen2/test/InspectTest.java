@@ -1,8 +1,7 @@
-package re2.test;
+package gen2.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static re2.Functions.Decrypt.decrypt;
-import static re2.Functions.Encrypt.encrypt;
+import static gen2.Functions.Encrypt.encrypt;
 
 import org.junit.jupiter.api.Test;
 

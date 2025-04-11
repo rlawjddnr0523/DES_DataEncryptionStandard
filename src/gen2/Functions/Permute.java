@@ -1,4 +1,4 @@
-package re2.Functions;
+package gen2.Functions;
 
 public class Permute {
     public static long permute(byte[] table, int nBits, long input) {

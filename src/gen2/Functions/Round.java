@@ -1,8 +1,8 @@
-package re2.Functions;
+package gen2.Functions;
 
-import static re2.Functions.F.f;
-import static re2.Functions.KeySchedule.generateSubKeys;
-import static re2.Functions.Permute.permute;
+import static gen2.Functions.F.f;
+import static gen2.Functions.KeySchedule.generateSubKeys;
+import static gen2.Functions.Permute.permute;
 
 public class Round {
     public static long round(long PT, long[] subKeys) {
